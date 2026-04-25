@@ -1,0 +1,125 @@
+/* Page background */
+body {
+  background: #f5f7fb;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container spacing */
+.container {
+  margin-top: 30px;
+}
+
+/* Header */
+h3 {
+  font-weight: 600;
+  color: #0e0f0f;
+}
+
+/* Card styling */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  height: 100vh;
+  width: 100%;
+
+}
+
+/* Card titles */
+.card h5 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+/* Input fields */
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #dcdde1;
+  padding: 50px;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #4c8bf5;
+  box-shadow: 0 0 0 2px rgba(76, 139, 245, 0.2);
+}
+
+/* Checkbox */
+.form-check-label {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Buttons */
+button {
+  border-radius: 8px !important;
+  font-weight: 500;
+  padding: 8px 16px;
+  transition: 0.2s ease;
+}
+
+/* Primary button */
+.btn-primary {
+  background-color: #4c8bf5;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #3a6fd8;
+}
+
+/* Danger button */
+.btn-danger {
+  background-color: #e74c3c;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+/* Logout button */
+.btn-outline-danger {
+  border-radius: 8px;
+}
+
+/* Teacher list */
+.list-group-item {
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding: 12px 10px;
+  transition: background 0.2s;
+}
+
+.list-group-item:hover {
+  background: #f8f9fc;
+}
+
+/* Teacher name */
+.fw-bold {
+  font-size: 16px;
+  color: #2c3e50;
+}
+
+/* Subtext */
+.text-muted {
+  font-size: 13px;
+}
+
+/* Empty text */
+p {
+  color: #888;
+  font-size: 14px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .card {
+    padding: 10px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}

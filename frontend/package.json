@@ -8,8 +8,13 @@
     "build": "vite build"
   },
   "dependencies": {
+    "bootstrap": "^5.3.8",
+    "lucide-react": "^1.8.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.14.1",
+    "recharts": "^3.8.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
